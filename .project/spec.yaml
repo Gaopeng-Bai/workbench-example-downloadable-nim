@@ -80,6 +80,7 @@ environment:
                 - vim
             - name: pip
               binary_path: /usr/local/bin/pip
+              index_url: https://pypi.tuna.tsinghua.edu.cn/simple
               installed_packages:
                 - jupyterlab==4.0.7
         package_manager_environment:
